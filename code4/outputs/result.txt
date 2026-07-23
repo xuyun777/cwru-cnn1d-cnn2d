@@ -1,0 +1,43 @@
+Model params: 221768
+
+============================================================
+Test Results (CNN-2D)
+============================================================
+Test Type Acc: 0.9872
+Test Size Acc: 0.9455
+Test Joint Acc: 0.9664
+
+Type Classification Report:
+              precision    recall  f1-score   support
+
+      Normal     1.0000    1.0000    1.0000       117
+       Inner     1.0000    0.9631    0.9812       352
+       Outer     0.9832    0.9944    0.9888       354
+        Ball     0.9751    1.0000    0.9874       352
+
+    accuracy                         0.9872      1175
+   macro avg     0.9896    0.9894    0.9893      1175
+weighted avg     0.9875    0.9872    0.9872      1175
+
+Size Classification Report:
+              precision    recall  f1-score   support
+
+        None     1.0000    1.0000    1.0000       117
+     0.007in     0.8527    1.0000    0.9205       353
+     0.014in     0.9904    0.8835    0.9339       352
+     0.021in     1.0000    0.9348    0.9663       353
+
+    accuracy                         0.9455      1175
+   macro avg     0.9608    0.9546    0.9552      1175
+weighted avg     0.9529    0.9455    0.9462      1175
+
+Type Confusion Matrix:
+[[117   0   0   0]
+ [  0 339   6   7]
+ [  0   0 352   2]
+ [  0   0   0 352]]
+Size Confusion Matrix:
+[[117   0   0   0]
+ [  0 353   0   0]
+ [  0  41 311   0]
+ [  0  20   3 330]]

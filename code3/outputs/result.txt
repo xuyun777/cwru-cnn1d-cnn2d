@@ -1,0 +1,33 @@
+Parameters: 13645
+======================================================================
+  TEST RESULTS
+======================================================================
+  Type Accuracy:   0.8655
+  Type Macro F1:   0.8854
+  Size Accuracy:   0.8562
+  Size Macro F1:   0.8794
+  Joint Accuracy:  0.8230
+
+=== Fault Type Classification Report ===
+              precision    recall  f1-score   support
+
+      Normal     0.9750    1.0000    0.9873       117
+       Inner     0.9703    0.9290    0.9492       352
+       Outer     1.0000    0.6525    0.7897       354
+        Ball     0.7023    0.9716    0.8153       352
+
+    accuracy                         0.8655      1175
+   macro avg     0.9119    0.8883    0.8854      1175
+weighted avg     0.8994    0.8655    0.8648      1175
+
+=== Fault Size Classification Report ===
+              precision    recall  f1-score   support
+
+        None     0.9750    1.0000    0.9873       117
+     0.007in     0.6854    1.0000    0.8134       353
+     0.014in     0.9835    0.6761    0.8013       352
+     0.021in     1.0000    0.8442    0.9155       353
+
+    accuracy                         0.8562      1175
+   macro avg     0.9110    0.8801    0.8794      1175
+weighted avg     0.8981    0.8562    0.8578      1175

@@ -1,0 +1,30 @@
+{
+  "type_accuracy": 0.865532,
+  "type_macro_f1": 0.885386,
+  "size_accuracy": 0.85617,
+  "size_macro_f1": 0.879392,
+  "joint_accuracy": 0.822979,
+  "best_epoch": 77,
+  "n_params": 13645,
+  "params": {
+    "num_conv_layers": 4,
+    "base_channels": 16,
+    "channel_growth": 1.25,
+    "first_kernel": 32,
+    "first_stride": 8,
+    "kernel_size": 3,
+    "use_pool": false,
+    "type_hidden": 96,
+    "size_hidden": 128,
+    "dropout": 0.15000000000000002,
+    "learning_rate": 0.000747599299995651,
+    "weight_decay": 0.0005987474910461401,
+    "batch_size": 64,
+    "channels": [
+      16,
+      20,
+      25,
+      31
+    ]
+  }
+}

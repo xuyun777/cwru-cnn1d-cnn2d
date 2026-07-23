@@ -1,0 +1,26 @@
+CWRU Preprocessing Stats (code2) -- Per-Load Split
+==================================================
+
+Window length: 8192
+Overlap ratio: 0.5
+Train (0HP+1HP): 1670 samples
+Val (2HP): 1173 samples
+Test (3HP): 1175 samples
+
+Train type distribution:
+  Normal: 175
+  Inner: 442
+  Outer: 527
+  Ball: 526
+
+Val type distribution:
+  Normal: 117
+  Inner: 353
+  Outer: 352
+  Ball: 351
+
+Test type distribution:
+  Normal: 117
+  Inner: 352
+  Outer: 354
+  Ball: 352

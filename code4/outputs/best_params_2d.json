@@ -1,0 +1,22 @@
+{
+  "trial_number": 16,
+  "val_type_acc": 1.0,
+  "val_size_acc": 1.0,
+  "val_joint_acc": 1.0,
+  "n_params": 221768,
+  "params": {
+    "num_conv_layers": 3,
+    "base_channels": 64,
+    "channel_growth": 1.0,
+    "first_kernel": 7,
+    "first_stride": 2,
+    "kernel_size": 5,
+    "use_pool": false,
+    "type_hidden": 128,
+    "size_hidden": 64,
+    "dropout": 0.1,
+    "learning_rate": 0.0007661779206972284,
+    "weight_decay": 0.00016798910673030407,
+    "batch_size": 32
+  }
+}

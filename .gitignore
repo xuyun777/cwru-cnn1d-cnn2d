@@ -1,0 +1,44 @@
+# ==================== 数据文件 ====================
+# CWRU 原始 .mat 文件（太大，需自行从官网下载）
+data/raw/*.mat
+# 预处理产物 .npy（运行 preprocess.py 即可生成）
+data/output/*.npy
+
+# ==================== 模型权重 ====================
+*.pth
+
+# ==================== 输出产物 ====================
+# Optuna 数据库
+*.db
+# 搜索结果 CSV（运行 search 即可生成）
+code3/outputs/all_trials.csv
+code3/outputs/pareto_front.csv
+code4/outputs/all_trials_2d.csv
+code4/outputs/pareto_front_2d.csv
+
+# ==================== 备份与旧版 ====================
+code4/backupv1/
+
+# ==================== 个人笔记 ====================
+论文.md
+Memory.md
+*项目总结*.md
+code4_代码说明.md
+
+# ==================== 日志 ====================
+*.jsonl
+
+# ==================== IDE / 编辑器 ====================
+.vscode/
+.idea/
+
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# ==================== 系统文件 ====================
+.DS_Store
+Thumbs.db
