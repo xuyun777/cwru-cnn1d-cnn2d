@@ -6,7 +6,7 @@ Parameters: 13645
   Type Macro F1:   0.8854
   Size Accuracy:   0.8562
   Size Macro F1:   0.8794
-  Joint Accuracy:  0.8230
+  Joint Accuracy:  0.8609
 
 === Fault Type Classification Report ===
               precision    recall  f1-score   support

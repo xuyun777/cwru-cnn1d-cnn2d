@@ -93,7 +93,7 @@ def evaluate(model, loader, criterion, type_acc, size_acc, device):
     sp = torch.cat(all_sp)
     tl = torch.cat(all_tl)
     sl = torch.cat(all_sl)
-    joint = ((tp == tl) & (sp == sl)).sum().item() / len(tl)
+    joint = (type_acc.compute().item() + size_acc.compute().item())/2.0
     return {
         'loss': total_loss / n,
         'type_acc': type_acc.compute().item(),
